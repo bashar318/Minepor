@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bashar Kanaan | Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a class="logo" href="#home" aria-label="Bashar Kanaan, home">BK</a>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="home">
+            <div class="section-inner hero-layout">
+                <div class="hero-content">
+                    <h1>Hello, I'm <span>Bashar Kanaan.</span></h1>
+                    <h2>Software Engineering Student</h2>
+                    <p>I am learning to build simple and useful websites with HTML and CSS.</p>
+                    <a class="button" href="#projects">Explore my projects <span aria-hidden="true">→</span></a>
+                </div>
+                <div class="hero-world" aria-hidden="true">
+                    <div class="world-label"><span></span> WORLD 01 <b>OVERWORLD</b></div>
+                    <div class="pixel-sun"></div>
+                    <div class="pixel-cloud cloud-one"></div>
+                    <div class="pixel-cloud cloud-two"></div>
+                    <div class="pixel-hill hill-back"></div>
+                    <div class="pixel-hill hill-front"></div>
+                    <div class="pixel-block block-one"></div>
+                    <div class="pixel-block block-two"></div>
+                    <div class="pixel-player">
+                        <div class="player-head">
+                            <svg class="curly-hair" viewBox="0 0 48 26" aria-hidden="true">
+                                <path class="hair-shape" d="M6 21C2 20 1 16 4 13C1 9 4 5 8 6C9 1 14 0 18 4C20-1 26-1 29 4C33 1 38 4 38 8C44 7 47 12 44 16C47 20 43 23 39 22L9 23C8 23 7 22 6 21Z"/>
+                                <path class="hair-curl-lines" d="M7 13c-1-2 1-4 3-3m4-3c0-2 3-3 5-1m4 0c1-2 4-2 5 1m4 0c1-2 4-1 4 2m4 3c2-1 4 1 3 3M10 16c1-2 3-2 4 0m8-4c1-2 3-2 4 0m8 3c1-2 3-2 4 0"/>
+                            </svg>
+                            <i></i>
+                        </div>
+                        <div class="player-body"></div>
+                        <div class="player-arm"></div>
+                        <div class="player-leg leg-one"></div>
+                        <div class="player-leg leg-two"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="section-inner">
+                <h2>About Me</h2>
+                <p class="about-copy">I study Software Engineering at Bethlehem University. I am interested in web development and enjoy learning by creating small projects.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="section-inner">
+                <h2>My Skills</h2>
+                <ul class="skills-list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Responsive Design</li>
+                    <li>Git and GitHub</li>
+                    <li>UI Basics</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="section-inner">
+                <h2>My Projects</h2>
+                <div class="projects-list">
+                    <article class="project">
+                        <div class="project-art store-art" aria-hidden="true">
+                            <span class="art-sun"></span>
+                            <span class="store-cloud"></span>
+                            <span class="store-sign">BLOCK MARKET</span>
+                            <span class="store-building"></span>
+                            <span class="store-awning"></span>
+                            <span class="store-window">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </span>
+                            <span class="store-door"></span>
+                            <span class="store-path"></span>
+                            <span class="store-plant"></span>
+                        </div>
+                        <div class="project-details">
+                            <h3>Online Store Design</h3>
+                            <p>A simple store page layout made with HTML and CSS.</p>
+                        </div>
+                    </article>
+                    <article class="project">
+                        <div class="project-art task-art" aria-hidden="true">
+                            <span class="task-toolbar"></span>
+                            <span class="task-row"><i></i><b>Plan weekly goals</b></span>
+                            <span class="task-row"><i></i><b>Build project page</b></span>
+                            <span class="task-row"><i></i><b>Review new ideas</b></span>
+                            <span class="task-add">+</span>
+                        </div>
+                        <div class="project-details">
+                            <h3>Task List Design</h3>
+                            <p>A basic dashboard concept for organizing daily tasks.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="section-inner">
+                <div class="contact-panel">
+                    <div class="contact-message">
+                        <h2>Contact Me</h2>
+                        <p>Have a project or an idea? I’d love to connect and hear about it.</p>
+                    </div>
+                    <form class="contact-form" action="mailto:202404227@bethlehem.edu" method="post" enctype="text/plain">
+                        <div class="form-fields">
+                            <div class="form-field">
+                                <label for="contact-name">Your name</label>
+                                <input id="contact-name" name="name" type="text" placeholder="Your name" autocomplete="name" required>
+                            </div>
+                            <div class="form-field">
+                                <label for="contact-email">Your email</label>
+                                <input id="contact-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+                            </div>
+                            <div class="form-field form-field-message">
+                                <label for="message-content">Your message</label>
+                                <textarea id="message-content" name="message" rows="5" placeholder="Tell me about your idea..." required></textarea>
+                            </div>
+                        </div>
+                        <button class="button contact-submit" type="submit">Send message <span aria-hidden="true">↗</span></button>
+                        <p class="form-note">Opens your default email app with your message ready to send.</p>
+                    </form>
+                </div>
+                <div class="contact-list">
+                    <a class="contact-card" href="https://www.linkedin.com/in/bashar318" target="_blank" rel="noreferrer">
+                        <span class="contact-icon linkedin-icon" aria-hidden="true">in</span>
+                        <span class="contact-detail">
+                            <span class="contact-label">ALSO FIND ME ON</span>
+                            <strong>LinkedIn profile</strong>
+                        </span>
+                        <span class="contact-arrow" aria-hidden="true">↗</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Bashar Kanaan</p>
+    </footer>
+</body>
+</html>
